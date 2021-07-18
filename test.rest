@@ -1,0 +1,25 @@
+###
+POST http://localhost:8000/api/customer
+Content-Type: application/json
+
+{
+    "name" : "rangga",
+    "address" : "Kemiri jaya 6"
+}
+
+###
+GET http://localhost:8000/api/customers
+Content-Type: application/json
+
+###
+PUT http://localhost:8000/api/customer/1
+Content-Type: application/json
+
+{
+    "name" : "rangga",
+    "address" : "Kemiri jaya 6"
+}
+
+###
+DELETE http://localhost:8000/api/customer/14
+Content-Type: application/json
